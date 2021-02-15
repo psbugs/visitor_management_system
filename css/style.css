@@ -1,0 +1,47 @@
+body
+{
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: line-through;
+}
+
+
+.errmsg{
+	position: fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:40%;
+	height: 100px;
+	z-index: 50;
+}
+.ts_message_popup{
+	position: fixed;
+	color:white;
+	font-weight: bold;
+	text-transform: capitalize;
+	top:50%;
+	right: 50px;
+	z-index: 5000;
+	padding:5px 50px;
+	border-radius: 5px;
+
+}
+.ts_popup_success
+{
+	background-color: rgba(0,255,0,0.6);
+}
+.ts_popup_error{
+	background-color: rgba(255,0,0,0.6);
+}
+.bottom-container
+{
+	text-align: center;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.copyright
+{
+  color: #c5d7bd;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
